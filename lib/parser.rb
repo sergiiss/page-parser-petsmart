@@ -1,0 +1,7 @@
+require 'nokogiri'
+require 'open-uri'
+require 'csv'
+require 'yaml'
+require 'parser/page_parser'
+require 'parser/category_parser'
+require 'parser/printer'

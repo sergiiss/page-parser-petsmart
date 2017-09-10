@@ -1,0 +1,7 @@
+petsmart:
+  quantity_pages_search: ".//div//div[@class='pagination']//ul//li[last()-1]/a"
+  link_product_search: ".//div//a[@class='product_img_link']/@href"
+  product_name: ".//div/div/h1[@class='product-name']/text()"
+  product_weight: ".//div[@class='value']/ul/li[#{index}]/a/@title"
+  product_price: ".//div/div[@class='product-price']/span[1]/text()"
+  product_image: ".//div//span[@id='view_full_size']/img/@src"
